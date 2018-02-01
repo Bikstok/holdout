@@ -1,0 +1,39 @@
+// http://community.bistudio.com/wiki/description.ext
+class Header {
+	gametype = COOP;
+	minplayers = 1;
+	maxplayers = 10;
+};
+
+author = "Bikstok";
+estimatedTimeLeft = 86400;
+
+onLoadIntro = "";
+onLoadMission = "";
+onLoadName = "Holdout 2.0";
+onLoadIntroTime = false;
+onLoadMissionTime = false;
+
+respawn = 3;
+respawnDelay = 10;
+respawnVehicleDelay = 0;
+respawnDialog = 1;
+
+disabledAI = 1;
+
+class CfgMusic {};
+class CfgSounds {};
+class CfgRadio {};
+class CfgIdentities {};
+class Weapons {};
+class Magazines {};
+class Params {};
+class RscTitles {};
+
+
+// http://community.bistudio.com/wiki/Functions_Library
+class cfgFunctions {
+
+};
+
+// http://community.bistudio.com/wiki/PreProcessor_Commands

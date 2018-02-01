@@ -1,0 +1,20 @@
+// Lieutenant
+removeAllWeapons _this;
+removeAllItems _this;
+removeAllAssignedItems _this;
+removeUniform _this;
+removeVest _this;
+removeBackpack _this;
+removeHeadgear _this;
+removeGoggles _this;
+_this addVest 'V_TacVest_blk_POLICE';
+_this addUniform 'U_MillerBody';
+_this addHeadgear 'H_Beret_blk';
+_weapon = [_this, "srifle_DMR_03_F", 9, "20Rnd_762x51_Mag"] call BIS_fnc_addWeapon;
+_this addPrimaryWeaponItem 'optic_MRCO';
+_this additem 'FirstAidKit';
+_this additem 'FirstAidKit';
+_this linkitem 'itemGPS';
+_this additem 'HandGrenade';
+_this additem 'SmokeShell';
+_this additem 'SmokeShell';
